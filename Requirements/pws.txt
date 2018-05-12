@@ -1,0 +1,6 @@
+www.shreeenviro.com
+
+https://p3nwvpweb013.shr.prod.phx3.secureserver.net:8443/smb/
+open httpdocs/ folder and upload files
+username: raj785@gmail.com
+password; Ram@rchu85
