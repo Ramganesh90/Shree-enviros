@@ -17,7 +17,9 @@
   }
 
   body{
-      background-image: url('../images/EnvBg.png')
+      background-image: url('../images/EnvBg.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
   }
 
 img.icon {

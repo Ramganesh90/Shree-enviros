@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Keywords" content="shree,shreeenviro,shreenviro services,enviro services, enviro services bangalore">
+ <meta name="Description" content="Environmental Consultancy to defend/represent Cases/Issues with NGT/PCB, ensuring 100 % Environmental Statutory Compliance, providing Guidance/Clarification on Environmental Acts/Rules, developing MIS,  Scrutinising of EIA Reports.">
+
   <title>Shree Environmental Services</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Latest compiled and minified CSS -->
@@ -18,11 +21,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet" type=" text/css" />
+  <link href="css/navbar-style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <script type="text/javascript">
   $(document).ready(function () {
-    $("header").load("header-app.html");
+    $("header").load("header-app.html", function (data) {
+      $('.nav > li').removeClass('active');
+      $('.nav > li:eq(1)').addClass('active');
+    });
     $("footer").load("footer-app.html");
   });
 </script>
@@ -31,10 +38,50 @@
   <header>
 
   </header>
-  <h2>About</h2>
+  <div class="container">
+    <h3>Objective of this Consultancy</h3>
+
+    <p>
+      DEVELOPMENT and SUSTAINABILITY should always go hand in hand. The three PILLARS of Sustainability viz., Social, Environmental
+      and Financial Performances decide the BOTTOM LINE of an Industry. Over the years , the Society and Environment gained
+      momentum and prominence and started having a say in the running of the Industry. The Industries are left with no other
+      choice than stay focused on these two aspects also apart from Financial aspects, which was the only focus then. Due
+      to Globalization Pressures and International Commitments , the Environmental Legislations are undergoing lots of changes
+      and are becoming more stringent with every passing day. The Society for its part, puts many challenges on the Industry
+      in its own way. The legal issues arising out of various Enviro-Social factors are to be tackled swiftly and promptly.
+    </p>
+    <p>
+      Hence, this Consultancy Services has been launched with a motive to help and assist the Industries to resolve the Environmental
+      Challenges ,which will have a say on the bottom line. The Principal Environmental Consultant is an Engineer who won
+      many coveted Awards from reputed Institutes and having 20+ years of rich hands on experience in the Environmental Field
+      of Mining, Metal ,Cement & Power Sectors.
+    </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h2>About the Consultant</h2>
+
+        <p>
+          The Principal Environmental Consultant is an Engineer from Guindy Engineering College, Chennai, Tamilnadu with
+          <i>20+ years of rich hands on experience in the field of Environment</i> in
+          <b>
+            Mining, Metal,Cement & Power Sectors </b>out of which last 12 years ( as of Jan 2018) have been in Top Management
+          & Corporate Level and
+          <i>won many recognitions for excellence from reputed institutes like TERI,CII and Institute of Directors
+          </i>in the form of coveted Environmental Awards.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/page4-img7.jpg" width="100%">
+      </div>
+    </div>
+    
+  </div>
+  </div>
 
   <footer>
-    
+
   </footer>
 </body>
 
